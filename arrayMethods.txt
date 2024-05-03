@@ -1,0 +1,41 @@
+1. **push():** Añade uno o más elementos al final de un array y devuelve la nueva longitud del array.
+   
+2. **pop():** Elimina el último elemento de un array y lo devuelve.
+
+3. **shift():** Elimina el primer elemento de un array y lo devuelve.
+
+4. **unshift():** Añade uno o más elementos al inicio de un array y devuelve la nueva longitud del array.
+
+5. **slice():** Devuelve una copia superficial de una porción de un array en un nuevo array, seleccionado desde inicio hasta fin (fin no incluido).
+
+6. **splice():** Cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
+
+7. **concat():** Combina dos o más arrays, devolviendo un nuevo array sin modificar los originales.
+
+8. **indexOf():** Devuelve el primer índice en el que se encuentra un elemento dado dentro del array, o -1 si no está presente.
+
+9. **lastIndexOf():** Devuelve el último índice en el que se encuentra un elemento dado dentro del array, o -1 si no está presente.
+
+10. **forEach():** Ejecuta una función proporcionada una vez por cada elemento en el array.
+
+11. **map():** Crea un nuevo array con los resultados de llamar a una función dada en cada elemento del array.
+
+12. **filter():** Crea un nuevo array con todos los elementos que pasan el test implementado por la función proporcionada.
+
+13. **reduce():** Aplica una función a un acumulador y a cada valor de un array (de izquierda a derecha) para reducirlo a un único valor.
+
+14. **reduceRight():** Aplica una función a un acumulador y a cada valor de un array (de derecha a izquierda) para reducirlo a un único valor.
+
+15. **find():** Devuelve el primer elemento de un array que cumple con la función de prueba proporcionada.
+
+16. **findIndex():** Devuelve el índice del primer elemento de un array que cumple con la función de prueba proporcionada.
+
+17. **some():** Verifica si al menos un elemento en el array cumple con la función de prueba proporcionada.
+
+18. **every():** Verifica si todos los elementos en el array cumplen con la función de prueba proporcionada.
+
+19. **sort():** Ordena los elementos de un array localmente y devuelve el array ordenado.
+
+20. **reverse():** Invierte el orden de los elementos de un array.
+
+Estos métodos son muy útiles y versátiles para manipular y trabajar con arrays en JavaScript.

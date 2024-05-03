@@ -1,0 +1,12 @@
+Realizar el taller Arrays, asociado desde el link del Notion en la siguiente estructura:
+
+1. Crear una sola carpeta con el Nombre_Completo-Arrays
+ejemplo: Edwin_Rozo-Arrays
+2. Dentro de la carpeta, cree un archivo con el nombre del archivo.js de la siguiente manera: 01-addElements.js(y así sucesivamente).
+3. Cree una rama en su repositorio con la siguiente estructura: Edwin_Rozo-Arrays
+4. Por cada ejerciicio debe contener mínimo un commit con la siguiente estructura:
+  feat: Add new excercise about adding array numbers.Edwin_Rozo
+    feat(feature, o tarea):
+    descrición del commit.
+    Iniciales de quién lo creó.    
+
