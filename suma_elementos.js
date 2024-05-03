@@ -7,4 +7,3 @@ function addNumbers(array) {
   }
   return sum;
 }
-console.log("La suma de los elementos es:", addNumbers(numbers));
