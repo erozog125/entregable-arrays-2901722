@@ -2,6 +2,10 @@
 
 const numbers = [12,3,4,5,66,77,-12,78,0,5]
 
-function addNumbers (array) {
+function addNumbers (numbers) {
+  numbers.forEach(function(number){
+    let sum
+    sum+=number
+  })
   return sum
 }
