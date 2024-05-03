@@ -1,5 +1,6 @@
-let numbers=[20,30,2,2,20,10]
+let numbers=[20,30,2,20,10]
 function addition(n1,n2){
     return n1+n2
 }
+
 console.log(numbers.reduce(addition))
