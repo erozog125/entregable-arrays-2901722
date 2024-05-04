@@ -1,11 +1,11 @@
 let numbers = [1, 2, 5]
 
 function addElements(numbers) {
-    let counter = 0
+    let sum = 0
     numbers.forEach(number => {
-        counter += number
+        sum += number
     });
-    return counter
+    return sum
 }
 
 console.log(addElements(numbers))
