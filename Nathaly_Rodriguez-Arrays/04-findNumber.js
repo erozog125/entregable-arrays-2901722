@@ -1,5 +1,5 @@
-let listNumbers = [390, 89, 54, 250, 321, 642, 534, 13, 20, 45, 32, 21, 10, 45, 89, 44, 123, 23, 90, 100]
+let listNumbers = [23, 56, 13, 12, 567, 86, 22, 55, 75, 25, 59]
 
-let number = Math.min(...listNumbers)
+let least = listNumbers.reduce((minValue, num) => num < minValue ? num : minValue, listNumbers[0])
 
-console.log(number)
+console.log(least)
