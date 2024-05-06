@@ -1,17 +1,14 @@
-function findTheMinimum(array) {
+function findTheMaximum(array) {
   if (array.length === 0) {
-    return undefined; 
+      return undefined; 
   }
 
-  let minimum = array[0]; 
-
+  let maximum = array[0]; 
   for (let i = 1; i < array.length; i++) {
-    if (array[i] < minimum) {
-      minimum = array[i];
-    }
+      if (array[i] > maximum) {
+          maximum = array[i];
+      }
   }
-
-  return minimum;
-}
-
+  return maximum;
+}  
 
