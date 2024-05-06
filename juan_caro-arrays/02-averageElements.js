@@ -1,22 +1,7 @@
-function averageArray(array) {
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-    if (array.length === 0) {
-        return 0; 
-    }
-
-    
-    var sumaTotal = array.reduce(function(a, b) {
-        return a + b;
-    });
-
-
-    var average = sumaTotal / array.length;
-
-    return average;
-}
-
-
-var miArray = [1, 2, 3, 4, 5];
-console.log(averageArray(miArray)); 
-
-
+function averageNumbers() {
+  let average =  numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0) /numbers.length;
+  return average
+  
+} 
