@@ -11,3 +11,5 @@ function findTheMinimum(array) {
     }
     return minimum;
 }  
+
+const array = [4, 2, 7, 1, 9];
