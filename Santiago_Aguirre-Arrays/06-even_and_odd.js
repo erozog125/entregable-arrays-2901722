@@ -1,4 +1,4 @@
-const number= [5,6,9]
+const number= [5,2,9]
 let a;
 function even_Odd(number){
 for(let i=0; i<number.length;i++){
