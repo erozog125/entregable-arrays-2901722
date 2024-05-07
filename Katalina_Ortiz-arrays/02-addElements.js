@@ -1,6 +1,6 @@
 // Definimos la función que calculará el promedio
 function calculateAverage(array) {
-    // Verificar si el array está vacío
+    // Verifica si el array está vacío
     if (array.length === 0) {
         return 0; // Si está vacío, devolvemos 0 para evitar división por cero
     }
