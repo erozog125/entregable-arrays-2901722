@@ -1,0 +1,7 @@
+const numbers = [50,2,1,32,51,42,50,20]
+
+function organizeArray () {
+    numbers.sort((a,b) => a-b)
+    return numbers
+    
+} console.log(organizeArray());
