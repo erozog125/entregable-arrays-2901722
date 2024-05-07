@@ -1,16 +1,16 @@
 // Función para eliminar elementos duplicados de un array
-function eliminarDuplicados(array) {
+function removeduplicates(array) {
     // Crear un nuevo array vacío para almacenar los elementos únicos
-    var arraySinDuplicados = [];
+    let arrayNoDuplicates = [];
 
     // Iterar sobre cada elemento del array
-    array.forEach(function(elemento) {
+    array.forEach(function(element) {
         // Si el elemento no está en el nuevo array, añádelo
-        if (arraySinDuplicados.indexOf(elemento) === -1) {
-            arraySinDuplicados.push(elemento);
+        if (arrayNoDuplicates.indexOf(element) === -1) {
+            arrayNoDuplicates.push(element);
         }
     });
 
     // Devolver el nuevo array sin duplicados
-    return arraySinDuplicados;
+    return arrayNoDuplicates;
 }
