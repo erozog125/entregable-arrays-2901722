@@ -1,4 +1,4 @@
-let numbers=[5,4,4]
+let numbers=[5,4,3]
     function average(n1,n2){
         return (n1+n2)
     }
