@@ -1,6 +1,6 @@
 // Definimos la función que encuentra el número más pequeño en un array
 function findSmallesNumber(array) {
-    // Inicializamos una variable para almacenar el número más pequeño, comenzando con el primer elemento del array
+    // Iniciamos una variable para almacenar el número más pequeño, comenzando con el primer elemento del array
     let smallestnumber = array[0];
 
     // Iteramos sobre cada elemento del array
