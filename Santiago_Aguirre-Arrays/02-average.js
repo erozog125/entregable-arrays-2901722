@@ -1,4 +1,4 @@
-let numbers=[20,30,20]
+let numbers=[20,30,20,40]
 function addition(n1,n2){
     return n1+n2
 }
