@@ -1,4 +1,8 @@
-let array = [1, 2, 3, 4, 5];
-let ultimoElemento = array.pop();
-console.log(ultimoElemento); // Esto mostrará 5
-console.log(array); // Esto mostrará [1, 2, 3, 4]
+function calculateAverage(array) {
+    const sum = array.reduce((acc, current) => acc + current, 0);
+    return sum / array.length;
+  }
+  
+  // Usage example
+  const numbers = [3, 8, 2, 5, 1];
+  console.log(calculateAverage(numbers)); // This will return 3.
