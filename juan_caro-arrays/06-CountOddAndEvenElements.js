@@ -19,8 +19,7 @@ function countEvenOdd(array) {
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const result = countEvenOdd(numbers);
-//console.log("Number of even numbers:", result.evens);
-//console.log("Number of odd numbers:", result.odds);
+
 
 
 
