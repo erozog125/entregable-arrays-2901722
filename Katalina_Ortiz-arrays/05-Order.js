@@ -6,6 +6,6 @@ function sortNumbers(array) {
         return a - b;
     });
 
-    // Devolvemos el array ordenado
+    // Devolver el array ordenado
     return array;
 }
