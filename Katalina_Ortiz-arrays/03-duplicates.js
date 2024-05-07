@@ -1,6 +1,6 @@
 // Función para eliminar elementos duplicados de un array
 function removeduplicates(array) {
-    // Crear un nuevo array vacío para almacenar los elementos únicos
+    // Crea un nuevo array vacío para almacenar los elementos únicos
     let arrayNoDuplicates = [];
 
     // Iterar sobre cada elemento del array
