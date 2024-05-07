@@ -1,6 +1,6 @@
 // Definimos la función que cuenta la cantidad de números pares e impares en un array
 function countEvenOdd(array) {
-    // Inicializamos variables para contar los números pares e impares
+    // Iniciamos variables para contar los números pares e impares
     let quantityPairs = 0;
     let quantityOdd = 0;
 
